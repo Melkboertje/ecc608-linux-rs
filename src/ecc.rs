@@ -73,20 +73,24 @@ impl EccConfig {
             ///wake_delay: 1000,
             wake_delay: 650,
             durations: EccCommandDuration {
-                info: 500,
+                ///info: 500,
+                info: 300,
                 ///read: 800,
-                read: 785,
+                read: 700,
                 ///write: 8_000,
-                write:7_800,
-                lock: 19_500,
+                write:6_000,
+                ///lock: 19_500
+                lock: 16_000,
                 ///nonce: 7_000,
                 nonce: 3500,
-                random: 15_000,
-                genkey: 59_000,
+                ///random: 15_000
+                random: 13_000,
+                ///keygen: 59_000
+                genkey: 52_000,
                 ///sign: 62_000,
-                sign: 55_000,
+                sign: 54_000,
                 ///ecdh: 28_000,
-                ecdh: 22_000,
+                ecdh: 25_000,
              },
         }
     }
