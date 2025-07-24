@@ -80,13 +80,13 @@ impl EccConfig {
                 write:7_800,
                 lock: 19_500,
                 ///nonce: 7_000,
-                nonce: 375,
+                nonce: 3500,
                 random: 15_000,
                 genkey: 59_000,
                 ///sign: 62_000,
                 sign: 55_000,
                 ///ecdh: 28_000,
-                ecdh: 12_795,
+                ecdh: 22_000,
              },
         }
     }
