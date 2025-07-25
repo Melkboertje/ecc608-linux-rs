@@ -10,7 +10,7 @@ use crate::{Error, Result};
 use i2c_linux::I2c;
 use serialport::{ClearBuffer, SerialPort};
 
-const RECV_RETRY_WAIT: Duration = Duration::from_millis(4);
+const RECV_RETRY_WAIT: Duration = Duration::from_millis(1);
 const RECV_RETRIES: u8 = 10;
 const SWI_DEFAULT_BAUDRATE: u32 = 230_400;
 const SWI_WAKE_BAUDRATE: u32 = 115_200;
