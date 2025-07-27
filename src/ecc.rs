@@ -71,26 +71,26 @@ impl EccConfig {
     pub fn for_i2c() -> Self {
         Self {
             ///wake_delay: 1000,
-            wake_delay: 650,
+            wake_delay: 625,
             durations: EccCommandDuration {
                 ///info: 500,
                 info: 300,
                 ///read: 800,
-                read: 600,
+                read: 500,
                 ///write: 8_000,
-                write: 5_000,
+                write: 4_000,
                 ///lock: 19_500
-                lock: 16_000,
+                lock: 15_000,
                 ///nonce: 7_000,
-                nonce: 4_000,
+                nonce: 3_000,
                 ///random: 15_000
                 random: 12_000,
                 ///keygen: 59_000
-                genkey: 51_000,
+                genkey: 50_000,
                 ///sign: 62_000,
                 sign: 51_000,
                 ///ecdh: 28_000,
-                ecdh: 26_000,
+                ecdh: 25_000,
              },
         }
     }
